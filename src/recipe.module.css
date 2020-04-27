@@ -1,0 +1,43 @@
+.recipe{
+    border-radius: 20px;
+    box-shadow: 0px 5px 20px rgb(107, 107, 107);
+    margin:15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    background-color:#f14f4f;
+    align-items: center;
+    width: 40%;
+}
+
+.recipe:hover{
+    box-shadow: 0px 10px 30px rgba(0,0,0,0.5),0px 13px 29px rgb(107, 107, 107);
+    border-radius: 30px;
+    border: none;
+}
+
+.image{
+    border-radius: 50%;
+    height: 200px;
+    width: 200px;
+}
+
+.fortitle{
+    padding: 1rem;
+    color: rgb(88, 26, 26);
+}
+
+.forlist{
+    width: 70%;
+    color: rgb(88, 27, 35);
+}
+
+@media screen and (max-width:700px){
+    .recipe{
+        width: 90%;
+    }
+    .image{
+        height: 140px;
+        width: 140px;
+    }
+}
